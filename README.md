@@ -21,8 +21,12 @@ execute it with a privileged user (root or a user with at least permissions in t
 sudoers to execute /usr/bin/apt). It is recommended to set this user whit NOPASSWD 
 in the /etc/sudoers (or /etc/sudoers.d) when executing the following command:
 
-```/usr/bin/sudo /usr/bin/apt install ./discord_update.deb```
+```
+    /usr/bin/sudo /usr/bin/apt install ./discord_update.deb
+```
 
 Example of the sugested configuration in /etc/sudoers file:
 
-```yaret   ALL=(ALL:ALL) NOPASSWD: /usr/bin/sudo /usr/bin/apt install ./discord_update.deb```
+```
+    yaret   ALL=(ALL:ALL) NOPASSWD: /usr/bin/sudo /usr/bin/apt install ./discord_update.deb
+```
