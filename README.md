@@ -1,1 +1,1 @@
-# Discord auto updater for debian based linux
+# Discord Auto Updater For Debian Based Linux
