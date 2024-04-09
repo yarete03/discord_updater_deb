@@ -5,7 +5,7 @@
 To use this utility you just have to clone this repository:
 
 ```
-function test() {
+{
     git clone https://github.com/yarete03/discord_updater_deb.git
 }    
 ```
