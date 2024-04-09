@@ -4,7 +4,11 @@
 ## Use
 To use this utility you just have to clone this repository:
 
-```git clone https://github.com/yarete03/discord_updater_deb.git```
+```
+function test() {
+    git clone https://github.com/yarete03/discord_updater_deb.git
+}    
+```
 
 Then you will have to place the bash script **auto_update_discord.sh** wherever 
 you want, and you just have to execute it every single time you want to open discord.
