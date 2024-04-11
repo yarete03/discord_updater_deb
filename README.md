@@ -1,5 +1,4 @@
 # Discord Auto Updater For Debian Based Linux
----
 
 ## Use
 To use this utility you just have to clone this repository:
