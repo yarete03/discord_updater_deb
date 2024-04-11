@@ -28,5 +28,5 @@ in the /etc/sudoers (or /etc/sudoers.d) when executing the following command:
 Example of the sugested configuration in /etc/sudoers file:
 
 ```
-    yaret   ALL=(ALL:ALL) NOPASSWD: /usr/bin/sudo /usr/bin/apt install ./discord_update.deb
+    username   ALL=(ALL:ALL) NOPASSWD: /usr/bin/sudo /usr/bin/apt install ./discord_update.deb
 ```
