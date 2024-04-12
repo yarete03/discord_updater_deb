@@ -14,6 +14,12 @@ The script will search for new Discord versions before executing it, if it finds
 newer version, the script will automatically update it before executing Discord. 
 Otherwise Discord will be launched as if we've executed it from the oficial binary.
 
+You may need to install wget, curl or jq
+
+```
+    apt update && apt install wget curl jq
+```
+
 ### > [!WARNING]
 > Since this script will update Discord if there is a newer version, you will have to 
 execute it with a privileged user (root or a user with at least permissions in the 
